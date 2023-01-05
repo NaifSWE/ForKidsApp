@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wallpaper_app"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/emmm"
+            android:onClick="EI_Page" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button4"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="معلومات عن الزمن"
+            android:textColor="@color/black" />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/comunication_skills"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button5"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:text="تنمية الوعي"
+            android:textColor="@color/black" />
+
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/islam" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn9"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:text="دينا الأسلامي"
+            android:textColor="@color/black" />
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/thinking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button7"
+            android:layout_marginLeft="260dp"
+            android:text="معلومات عن البيئة"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
